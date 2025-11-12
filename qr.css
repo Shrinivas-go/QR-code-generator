@@ -1,0 +1,55 @@
+body{
+  font-family:Verdana,Tahoma, sans-serif;
+  background-color:blueviolet;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:75vh;
+  margin:0; 
+  padding:0;
+}
+
+.container{
+  min-height:150px;
+  width:280px;
+  padding:0 15px;
+  background-color:white;
+  border-radius:3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+.container > p{
+  font-size:17px;
+  font-weight:400;
+}
+.container > input{
+  font-size:17px;
+  font-weight:400;
+  padding:5px;
+}
+
+.container > div{
+  margin-top:10px;
+}
+
+button{
+  background-color:rgb(180, 0, 180);
+  color:white;
+  padding:10px;
+  margin-bottom:10px;
+  border:none;
+  font-size:14px;
+}
+
+#qr-image{
+  width:150px;
+  height:150px;
+  margin-top:10px;
+}
+
+#qr-image[src=""] {
+  display: none;
+}
+
